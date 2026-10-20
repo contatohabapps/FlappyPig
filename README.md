@@ -1,20 +1,4 @@
-Flappy Pig
-
-Protótipo Android em Kotlin e Jetpack Compose para um jogo inspirado em Flappy Bird.
-
-## Organização
-
-- `navigation/`: coordenação e destino das telas (MVVM-C).
-- `features/game/domain/model/`: estado, fases e configuração do jogo.
-- `features/game/domain/service/`: regras de movimento, pontuação e colisão.
-- `features/game/presentation/`: ViewModel e tela Compose do jogo.
-- `ui/theme/`: tema visual do aplicativo.
-
-Cada tela nova deve ganhar sua própria pasta dentro de `features/`, com as camadas necessárias para aquela funcionalidade.
-
-## Primeiro protótipo
-
-Ao abrir, uma contagem regressiva de 3 segundos leva à tela pronta. Cada toque aplica um impulso para cima; entre os toques, a gravidade leva o personagem para baixo. Depois do primeiro toque, os policiais se deslocam da direita para a esquerda, com uma nota em posição aleatória no vão. A pontuação aumenta somente ao tocar na nota. Colidir com um policial ou chegar ao limite inferior encerra a partida; o botão de fim de jogo reinicia.
+## Flappy Pig
 
 ## Política de Privacidade
 
